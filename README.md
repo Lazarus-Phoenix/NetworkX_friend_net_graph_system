@@ -28,3 +28,36 @@ NetworkX (построение графов)\
 VK API (получение данных)\
     ↓\
 Django Admin (мониторинг)\
+
+Эскиз предварительно на планируемую разработку\
+\
+\
+networkx_friend_net/ \
+├── docker-compose.yml\
+├── Dockerfile\
+├── requirements.txt\
+├── .env.example\
+├── .gitignore\
+├── .pre-commit-config.yaml\
+├── backend/\
+│   ├── manage.py\
+│   ├── config/\
+│   │   ├── __init__.py\
+│   │   ├── settings.py\
+│   │   ├── urls.py\
+│   │   └── celery.py\
+│   ├── core/\
+│   │   ├── __init__.py\
+│   │   ├── models.py\
+│   │   ├── admin.py\
+│   │   ├── views.py\
+│   │   ├── urls.py\
+│   │   └── tasks.py\
+│   └── templates/\
+│       └── core/\
+│           ├── index.html\
+│           └── success.html\
+└── frontend/\
+    └── static/\
+        ├── css/\
+        └── js/\
