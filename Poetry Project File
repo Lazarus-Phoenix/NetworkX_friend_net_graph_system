@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "networkx-frend-net-graph-system"
+name = "networkx-friend-net"
 version = "0.1.0"
 description = "A system for visualizing social network friend graphs using NetworkX."
-authors = ["studio <dmitrij-bezgubov@yandex.ru>"]
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-django = "^5.2.6"
+python = "^3.9"
+Django = ">=4.0"
 celery = ">=5.0"
 redis = ">=4.0"
 psycopg2-binary = ">=2.9"
